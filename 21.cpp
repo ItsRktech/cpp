@@ -9,12 +9,8 @@ class SimpleInterest
     public:
         void input()
         {
-            cout << "Enter principal amount: ";
-            cin >> p;
-            cout << "Enter rate of interest: ";
-            cin >> r;
-            cout << "Enter time in years: ";
-            cin >> t;
+            cout << "Enter principal amount, time and rate of interest: ";
+            cin >> p >> t >> r;
         }
         void calculate()
         {
